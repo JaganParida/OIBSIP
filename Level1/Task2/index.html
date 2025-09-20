@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagan | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-container container">
+            <a href="#" class="logo">Jagan<span>Parida</span></a>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <!-- Dark Mode Toggle -->
+                <button id="theme-toggle" class="theme-toggle">
+                    <i id="theme-icon" class="fas fa-moon"></i>
+                </button>
+
+                <!-- Mobile Menu Button -->
+                <button id="menu-toggle" class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav id="mobile-menu" class="mobile-menu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hello, I'm <span class="text-primary">Jagan Parida</span></h1>
+                <h2 class="hero-subtitle">Web Developer</h2>
+                <p class="hero-description">
+                    I build beautiful, responsive websites with modern technologies to help businesses grow.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#projects" class="btn btn-outline">View Work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image">
+                    <img src="j.jpg" alt="Jagan Parida">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title text-center">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    I am a 3rd-year B.Tech Computer Science student aspiring to become a MERN stack full-stack
+                    developer with a passion for
+                    Data Structures and Algorithms (DSA) in Java.
+                </p>
+                <p class="about-text">
+                    I love building scalable web applications and
+                    continuously explore new
+                    technologies to enhance my front-end and back-end development skills. I thrive in
+                    problem-solving environments, applying
+                    my DSA knowledge to optimize performance and efficiency.
+                </p>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="feature-title">Web Development</h3>
+                        <p class="feature-description">Building responsive, accessible websites with modern
+                            technologies.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Responsive Design</h3>
+                        <p class="feature-description">Creating interfaces that work flawlessly across all devices.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="feature-title">Clean Code</h3>
+                        <p class="feature-description">Writing maintainable, scalable, and efficient code.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title text-center">My Skills</h2>
+            <div class="skills-container">
+                <div>
+                    <h3 class="skill-category-title">Technical Skills</h3>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML/CSS</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">React.js</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">UI/UX Design</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="skill-category-title">Soft Skills</h3>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">Communication</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">Problem Solving</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">Teamwork</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">Creativity</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">Time Management</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title text-center">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card card">
+                    <div class="project-image">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg"
+                            alt="E-commerce Website">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Website</h3>
+                        <p class="project-description">A modern e-commerce platform with product filtering, cart
+                            functionality, and payment integration.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card card">
+                    <div class="project-image">
+                        <img src="https://cdn.pixabay.com/photo/2018/03/10/12/00/teamwork-3213924_1280.jpg"
+                            alt="Task Management App">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">A collaborative task management application with real-time
+                            updates and team assignments.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Vue.js</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">Tailwind CSS</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card card">
+                    <div class="project-image">
+                        <img src="https://plus.unsplash.com/premium_photo-1681433383783-661b519b154a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zml0bmVzcyUyMHRyYWNrZXJ8ZW58MHx8MHx8fDA%3D"
+                            alt="Fitness Tracker">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fitness Tracker</h3>
+                        <p class="project-description">A mobile-responsive fitness application with workout plans,
+                            progress tracking, and nutrition guidance.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section resume">
+        <div class="container">
+            <h2 class="section-title text-center">Resume</h2>
+            <div class="resume-download">
+                <a href="#" class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+            <div class="resume-container">
+                <!-- Experience -->
+                <div>
+                    <h3 class="skill-category-title">Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4 class="timeline-title">Senior Web Developer</h4>
+                            <p class="timeline-subtitle">XYZ Tech Solutions • 2022 - Present</p>
+                            <p class="timeline-description">
+                                Led a team of 5 developers to create responsive web applications for various clients.
+                                Implemented modern frontend frameworks and improved site performance by 40%.
+                            </p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="timeline-title">Web Developer</h4>
+                            <p class="timeline-subtitle">ABC Digital Agency • 2019 - 2022</p>
+                            <p class="timeline-description">
+                                Developed and maintained various client websites using modern technologies.
+                                Collaborated with designers to transform concepts into functional web experiences.
+                            </p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="timeline-title">Frontend Developer</h4>
+                            <p class="timeline-subtitle">StartUp Inc • 2017 - 2019</p>
+                            <p class="timeline-description">
+                                Built interactive UI components and implemented responsive designs.
+                                Optimized existing code to improve website performance and user experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div>
+                    <h3 class="skill-category-title">Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4 class="timeline-title">MSc in Computer Science</h4>
+                            <p class="timeline-subtitle">University of Technology • 2015 - 2017</p>
+                            <p class="timeline-description">
+                                Specialized in web technologies and human-computer interaction.
+                                Graduated with honors.
+                            </p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="timeline-title">BSc in Software Engineering</h4>
+                            <p class="timeline-subtitle">Tech Institute • 2011 - 2015</p>
+                            <p class="timeline-description">
+                                Completed with distinction. Participated in numerous hackathons and coding competitions.
+                            </p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="timeline-title">Web Development Bootcamp</h4>
+                            <p class="timeline-subtitle">Code Academy • 2014</p>
+                            <p class="timeline-description">
+                                Intensive 12-week program covering full-stack web development.
+                                Built multiple real-world projects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section blog">
+        <div class="container">
+            <h2 class="section-title text-center">Recent Blog Posts</h2>
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card card">
+                    <div class="blog-image">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png"
+                            alt="Modern Web Development Trends">
+                    </div>
+                    <div class="blog-content">
+                        <p class="blog-date">May 15, 2025</p>
+                        <h3 class="blog-title">Modern Web Development Trends in 2025</h3>
+                        <p class="blog-excerpt">
+                            Exploring the latest frameworks, tools, and methodologies shaping the future of web
+                            development...
+                        </p>
+                        <a href="#" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card card">
+                    <div class="blog-image">
+                        <img src="https://cdn.pixabay.com/photo/2018/01/17/20/22/analytics-3088958_1280.jpg"
+                            alt="Optimizing Website Performance">
+                    </div>
+                    <div class="blog-content">
+                        <p class="blog-date">April 22, 2025</p>
+                        <h3 class="blog-title">10 Ways to Optimize Website Performance</h3>
+                        <p class="blog-excerpt">
+                            Practical tips and techniques to make your website lightning-fast and improve user
+                            experience...
+                        </p>
+                        <a href="#" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card card">
+                    <div class="blog-image">
+                        <img src="https://webosmotic.com/wp-content/uploads/2023/06/Mastering-CSS-Tips-Tricks-and-Techniques-for-Modern-Web-Design-scaled-1.jpgṅ"
+                            alt="Mastering CSS Grid">
+                    </div>
+                    <div class="blog-content">
+                        <p class="blog-date">March 8, 2025</p>
+                        <h3 class="blog-title">Mastering CSS Grid: A Complete Guide</h3>
+                        <p class="blog-excerpt">
+                            Everything you need to know about CSS Grid Layout for creating complex, responsive web
+                            layouts...
+                        </p>
+                        <a href="#" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-primary">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title text-center">Get In Touch</h2>
+            <div class="contact-container">
+                <div>
+                    <div class="contact-info">
+                        <p class="contact-description">
+                            Feel free to reach out to me for collaborations, job opportunities, or just to say hello!
+                        </p>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <span class="contact-detail">jagan.parida@example.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <span class="contact-detail">+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <span class="contact-detail">San Francisco, CA, USA</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="skill-category-title">Follow Me</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                            <span id="name-error" class="form-error">Name is required</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control">
+                            <span id="email-error" class="form-error">Please enter a valid email address</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control"></textarea>
+                            <span id="message-error" class="form-error">Message is required</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                    <div id="success-message" class="form-success">
+                        <p>Your message has been sent successfully! I'll get back to you soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="#" class="footer-logo">Jagan<span>Parida</span></a>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2025 Jagan Parida. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
