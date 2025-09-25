@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="converter-wrapper">
+        <h1>Temperature Converter</h1>
+
+        <div class="converter-body">
+            <div class="converter-group">
+                <label for="fromValue">From</label>
+                <input type="number" id="fromValue" class="value-input" value="72" placeholder="Enter temp">
+                <div class="unit-selector" id="fromUnits">
+                    <button class="unit-btn" data-unit="celsius">°C</button>
+                    <button class="unit-btn active" data-unit="fahrenheit">°F</button>
+                    <button class="unit-btn" data-unit="kelvin">K</button>
+                </div>
+            </div>
+
+            <div class="swap-icon" id="swapBtn">
+                <i class="fas fa-retweet"></i>
+            </div>
+
+            <div class="converter-group">
+                <label for="toValue">To</label>
+                <div id="toValue" class="value-input result-box">--</div>
+                <div class="unit-selector" id="toUnits">
+                    <button class="unit-btn active" data-unit="celsius">°C</button>
+                    <button class="unit-btn" data-unit="fahrenheit">°F</button>
+                    <button class="unit-btn" data-unit="kelvin">K</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

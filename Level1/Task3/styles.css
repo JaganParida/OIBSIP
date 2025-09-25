@@ -1,0 +1,131 @@
+/* --- Google Font Import --- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* --- General Resets & Body Styling --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 20px;
+}
+
+/* --- Main Converter Wrapper --- */
+.converter-wrapper {
+  width: 100%;
+  max-width: 450px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* --- Input/Output Groups --- */
+.converter-group {
+  margin-bottom: 20px;
+}
+
+.converter-group label {
+  display: block;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.value-input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.value-input:focus {
+  border-color: #007bff;
+}
+
+/* For browsers that support hiding number input arrows */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.result-box {
+  background-color: #f7f7f7;
+  min-height: 62px; /* Match input height */
+  display: flex;
+  align-items: center;
+}
+
+/* --- Unit Selector Buttons --- */
+.unit-selector {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.unit-btn {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  color: #6c757d;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.unit-btn.active {
+  background-color: #007bff;
+  color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 123, 255, 0.3);
+}
+
+/* --- Swap Icon --- */
+.swap-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -10px 0 10px;
+}
+
+.swap-icon i {
+  font-size: 24px;
+  color: #007bff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.swap-icon i:hover {
+  transform: rotate(180deg);
+}
